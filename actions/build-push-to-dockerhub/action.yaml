@@ -101,6 +101,7 @@ runs:
 
     - name: Set up Docker Buildx with mirror config
       uses: docker/setup-buildx-action@b5ca514318bd6ebac0fb2aedd5d36ec1b5c232a2
+      id: buildx
       with:
         buildkitd-flags: --config ./buildkitd.toml
         driver: ${{ inputs.docker-buildx-driver }}
@@ -115,6 +116,7 @@ runs:
     - name: Build and push Docker image
       uses: docker/build-push-action@14487ce63c7a62a4a324b0bfb37086795e31c6c1 # v6.16.0
       with:
+        builder: ${{ steps.buildx.outputs.name }}
         context: ${{ inputs.context }}
         platforms: ${{ inputs.platforms }}
         push: ${{ inputs.push }}
