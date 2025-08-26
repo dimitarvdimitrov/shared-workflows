@@ -1,5 +1,80 @@
 # Changelog
 
+## [2.0.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/login-to-gar/v1.0.0...login-to-gar/v2.0.0) (2025-08-26)
+
+
+### ⚠ BREAKING CHANGES
+
+* **login-to-gar:** Update configurations which specify `delete-credentials: false` to have `workspace-credentials: true` instead. If you don't have the option, you are not affected.
+* only allow direct workload identity federation in login-to-gar ([#1009](https://github.com/dimitarvdimitrov/shared-workflows/issues/1009))
+
+### 🎉 Features
+
+* **login-to-gar:** store credentials in temporary location by default ([#1023](https://github.com/dimitarvdimitrov/shared-workflows/issues/1023)) ([fe29dde](https://github.com/dimitarvdimitrov/shared-workflows/commit/fe29dde24ab0697084e75883d351eca1c961e352))
+* only allow direct workload identity federation in login-to-gar ([#1009](https://github.com/dimitarvdimitrov/shared-workflows/issues/1009)) ([0789629](https://github.com/dimitarvdimitrov/shared-workflows/commit/078962963e9e785bbe565287f41f96c23ba03274))
+* update login-to-gar action to include direct wif ([#772](https://github.com/dimitarvdimitrov/shared-workflows/issues/772)) ([ed6261d](https://github.com/dimitarvdimitrov/shared-workflows/commit/ed6261dda7dd83c57740658f195030be6e9723e8))
+* use `docker-credential-gcr` instead of `auth_token` for `login-to-gar` action ([#921](https://github.com/dimitarvdimitrov/shared-workflows/issues/921)) ([cac9a09](https://github.com/dimitarvdimitrov/shared-workflows/commit/cac9a09f00dfb7c7743500f1986d8faebca72f9f))
+* use auth_token in login-to-gar action ([#846](https://github.com/dimitarvdimitrov/shared-workflows/issues/846)) ([e65ba18](https://github.com/dimitarvdimitrov/shared-workflows/commit/e65ba18704a12d05c4c5ad00439c31d5861ba9a1))
+
+
+### 🐛 Bug Fixes
+
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+* install gcloud in login-to-gar action ([#813](https://github.com/dimitarvdimitrov/shared-workflows/issues/813)) ([935970b](https://github.com/dimitarvdimitrov/shared-workflows/commit/935970b13327698aa89e768f511a45432285f5cd))
+* **login-to-gar:** check if delete_credentials_file is set ([#1020](https://github.com/dimitarvdimitrov/shared-workflows/issues/1020)) ([7803c2c](https://github.com/dimitarvdimitrov/shared-workflows/commit/7803c2ce62f8d6d5da83cac0ae9af3d57b70a0ff))
+* **login-to-gar:** replace hardcoded opt dir with runner temp env var ([#1001](https://github.com/dimitarvdimitrov/shared-workflows/issues/1001)) ([d03fbe2](https://github.com/dimitarvdimitrov/shared-workflows/commit/d03fbe21194b8bae035dabfba8fdabe19c122660))
+* make default `delete_credentials_file` value false ([#950](https://github.com/dimitarvdimitrov/shared-workflows/issues/950)) ([71ec5a1](https://github.com/dimitarvdimitrov/shared-workflows/commit/71ec5a1861019932272c4ec12a8d7903049797c5))
+* use custom step for docker-credential-gcr ([#996](https://github.com/dimitarvdimitrov/shared-workflows/issues/996)) ([36bbb4c](https://github.com/dimitarvdimitrov/shared-workflows/commit/36bbb4c0ab04a493b5b76ee6e00d4476a0e954f5))
+
+
+### 📝 Documentation
+
+* add inputs section in login-to-gar action ([#961](https://github.com/dimitarvdimitrov/shared-workflows/issues/961)) ([3ce65db](https://github.com/dimitarvdimitrov/shared-workflows/commit/3ce65db098d2e00917a8b98c49a5417dd7a8797a))
+* add warning about using `checkout` action before `login-to-gar` ([#1012](https://github.com/dimitarvdimitrov/shared-workflows/issues/1012)) ([cb40def](https://github.com/dimitarvdimitrov/shared-workflows/commit/cb40def95f3c449ae8c7f23fa302c22bf9355fb5))
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🤖 Continuous Integration
+
+* add section for gha-creds jsons and .gitignore ([#1021](https://github.com/dimitarvdimitrov/shared-workflows/issues/1021)) ([f008500](https://github.com/dimitarvdimitrov/shared-workflows/commit/f008500f574f01cf9fcc5054be2464d6f5d6dcec))
+* make configure-docker less verbose ([#824](https://github.com/dimitarvdimitrov/shared-workflows/issues/824)) ([623010a](https://github.com/dimitarvdimitrov/shared-workflows/commit/623010ae889725b324e1ae1b3572d1be621b76b9))
+* remove gcp credentials after composite action finishes ([#925](https://github.com/dimitarvdimitrov/shared-workflows/issues/925)) ([62f8dda](https://github.com/dimitarvdimitrov/shared-workflows/commit/62f8ddaa78b23147b22ba6a38df2b97963dab4b3))
+* stop persisting credentials in google auth steps ([#916](https://github.com/dimitarvdimitrov/shared-workflows/issues/916)) ([4d185da](https://github.com/dimitarvdimitrov/shared-workflows/commit/4d185da792dd4520730b3b60ceedb1c9cb16cb6c))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** pin google-github-actions/setup-gcloud action to 6189d56 ([#774](https://github.com/dimitarvdimitrov/shared-workflows/issues/774)) ([315dfc8](https://github.com/dimitarvdimitrov/shared-workflows/commit/315dfc8f3d82295337d2032840f9c22848868296))
+* **deps:** update docker/login-action action to v3.4.0 ([#848](https://github.com/dimitarvdimitrov/shared-workflows/issues/848)) ([117d851](https://github.com/dimitarvdimitrov/shared-workflows/commit/117d8511cbc5da0337972deeb400c4298b057af3))
+* **deps:** update google-github-actions/auth action to v2.1.10 ([#926](https://github.com/dimitarvdimitrov/shared-workflows/issues/926)) ([fa48192](https://github.com/dimitarvdimitrov/shared-workflows/commit/fa48192dac470ae356b3f7007229f3ac28c48a25))
+* **deps:** update google-github-actions/auth action to v2.1.11 ([#1150](https://github.com/dimitarvdimitrov/shared-workflows/issues/1150)) ([895722b](https://github.com/dimitarvdimitrov/shared-workflows/commit/895722b12337ee97909efa8a78886ee69297ed50))
+* **deps:** update google-github-actions/auth action to v2.1.12 ([#1184](https://github.com/dimitarvdimitrov/shared-workflows/issues/1184)) ([ee464c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/ee464c522eba7d1a22b82d27739f4bf789102900))
+* **deps:** update google-github-actions/auth action to v2.1.8 ([#740](https://github.com/dimitarvdimitrov/shared-workflows/issues/740)) ([f75f620](https://github.com/dimitarvdimitrov/shared-workflows/commit/f75f620c6800b60d1a31262154e90b5c7a3ee955))
+* **deps:** update google-github-actions/auth action to v2.1.8 ([#775](https://github.com/dimitarvdimitrov/shared-workflows/issues/775)) ([c773be9](https://github.com/dimitarvdimitrov/shared-workflows/commit/c773be9039d28ffb2cf9740e39789eccc1c701e3))
+* **deps:** update google-github-actions/auth action to v2.1.9 ([#924](https://github.com/dimitarvdimitrov/shared-workflows/issues/924)) ([2774f26](https://github.com/dimitarvdimitrov/shared-workflows/commit/2774f26e2321f825e20c85e424a1c6fa8298d820))
+* **deps:** update google-github-actions/setup-gcloud action to v2.1.5 ([#1151](https://github.com/dimitarvdimitrov/shared-workflows/issues/1151)) ([84f55b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/84f55b125e875869f7aead3c1ed900eaae2735bb))
+* **deps:** update google-github-actions/setup-gcloud action to v2.2.0 ([#1211](https://github.com/dimitarvdimitrov/shared-workflows/issues/1211)) ([dc9441f](https://github.com/dimitarvdimitrov/shared-workflows/commit/dc9441f43be7baaf190c5b1b6c0fa3589a988907))
+* **deps:** update google-github-actions/setup-gcloud action to v2.2.1 ([#1266](https://github.com/dimitarvdimitrov/shared-workflows/issues/1266)) ([8bb65cb](https://github.com/dimitarvdimitrov/shared-workflows/commit/8bb65cb7cc5b627ec350a229de34aee58872650a))
+* **deps:** update google-github-actions/setup-gcloud action to v3 ([#1267](https://github.com/dimitarvdimitrov/shared-workflows/issues/1267)) ([ac79b81](https://github.com/dimitarvdimitrov/shared-workflows/commit/ac79b814a3c74384d24bb0431a3d99caa948e806))
+* **main:** release login-to-gar 0.1.1 ([#583](https://github.com/dimitarvdimitrov/shared-workflows/issues/583)) ([0e0599b](https://github.com/dimitarvdimitrov/shared-workflows/commit/0e0599b7a5b4ac0d091d78cdd9dba04e68a09f92))
+* **main:** release login-to-gar 0.2.0 ([#751](https://github.com/dimitarvdimitrov/shared-workflows/issues/751)) ([5e99bc1](https://github.com/dimitarvdimitrov/shared-workflows/commit/5e99bc1a73eb39ea12165b6f1b613808f4db7522))
+* **main:** release login-to-gar 0.2.1 ([#786](https://github.com/dimitarvdimitrov/shared-workflows/issues/786)) ([f4fff1b](https://github.com/dimitarvdimitrov/shared-workflows/commit/f4fff1b7e6f54f37da5dbc3f957a60b865896a57))
+* **main:** release login-to-gar 0.2.2 ([#804](https://github.com/dimitarvdimitrov/shared-workflows/issues/804)) ([ebcac32](https://github.com/dimitarvdimitrov/shared-workflows/commit/ebcac324fecb38bbeb7a2e59c82da34010c14014))
+* **main:** release login-to-gar 0.3.0 ([#845](https://github.com/dimitarvdimitrov/shared-workflows/issues/845)) ([b7d33d6](https://github.com/dimitarvdimitrov/shared-workflows/commit/b7d33d6a98dc9cf332674c6cdebe92b8bcb05670))
+* **main:** release login-to-gar 0.4.0 ([#922](https://github.com/dimitarvdimitrov/shared-workflows/issues/922)) ([974c330](https://github.com/dimitarvdimitrov/shared-workflows/commit/974c33049d0967c5c9cfc249fe675daf341dc78f))
+* **main:** release login-to-gar 0.4.1 ([#962](https://github.com/dimitarvdimitrov/shared-workflows/issues/962)) ([5f70bbf](https://github.com/dimitarvdimitrov/shared-workflows/commit/5f70bbf9e2c7fe96544f3bc7949c40422b5fc839))
+* **main:** release login-to-gar 0.4.2 ([#1002](https://github.com/dimitarvdimitrov/shared-workflows/issues/1002)) ([0f0e831](https://github.com/dimitarvdimitrov/shared-workflows/commit/0f0e831d5deff800cb06206473a69329591f429a))
+* **main:** release login-to-gar 0.4.3 ([#1011](https://github.com/dimitarvdimitrov/shared-workflows/issues/1011)) ([2a195cf](https://github.com/dimitarvdimitrov/shared-workflows/commit/2a195cfec5f92121717d96524e1436d978cbb19d))
+* **main:** release login-to-gar 1.0.0 ([#1015](https://github.com/dimitarvdimitrov/shared-workflows/issues/1015)) ([00646b3](https://github.com/dimitarvdimitrov/shared-workflows/commit/00646b30431b955ec3c00982b23b1eeb7b66445b))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
+
+### ♻️ Code Refactoring
+
+* simplify login-to-gar, removes describe service account ([#781](https://github.com/dimitarvdimitrov/shared-workflows/issues/781)) ([4e593d1](https://github.com/dimitarvdimitrov/shared-workflows/commit/4e593d17433d7b3968ae727e0dc509b77a074ebe))
+
 ## [1.0.0](https://github.com/grafana/shared-workflows/compare/login-to-gar/v0.4.3...login-to-gar/v1.0.0) (2025-06-17)
 
 
