@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.1.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/find-pr-for-commit/v1.0.1...find-pr-for-commit/v1.1.0) (2025-08-26)
+
+
+### 🎉 Features
+
+* update readme to include new version change ([#729](https://github.com/dimitarvdimitrov/shared-workflows/issues/729)) ([8fe61d1](https://github.com/dimitarvdimitrov/shared-workflows/commit/8fe61d10e85dfd9c3d280f5af371603cbf6f8f91))
+
+
+### 📝 Documentation
+
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release find-pr-for-commit 1.0.0 ([#732](https://github.com/dimitarvdimitrov/shared-workflows/issues/732)) ([74d2524](https://github.com/dimitarvdimitrov/shared-workflows/commit/74d2524821084bfb1f219ea0b3abf7e5078b3dfd))
+* **main:** release find-pr-for-commit 1.0.1 ([#805](https://github.com/dimitarvdimitrov/shared-workflows/issues/805)) ([cc2d8b9](https://github.com/dimitarvdimitrov/shared-workflows/commit/cc2d8b94d693ed60289a8f1b81bb28baaeb70c92))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [1.0.1](https://github.com/grafana/shared-workflows/compare/find-pr-for-commit-v1.0.0...find-pr-for-commit/v1.0.1) (2025-06-04)
 
 
