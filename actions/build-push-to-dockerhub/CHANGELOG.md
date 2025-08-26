@@ -1,5 +1,50 @@
 # Changelog
 
+## [0.3.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/build-push-to-dockerhub/v0.2.0...build-push-to-dockerhub/v0.3.0) (2025-08-26)
+
+
+### 🎉 Features
+
+* **build-push-to-dockerhub:** enable docker mirror for buildx on self-hosted runners ([#999](https://github.com/dimitarvdimitrov/shared-workflows/issues/999)) ([f797fbd](https://github.com/dimitarvdimitrov/shared-workflows/commit/f797fbd07354fd4727f952291bfa6b85eab568ef))
+* **build-push-to-dockerhub:** support load parameter ([#1193](https://github.com/dimitarvdimitrov/shared-workflows/issues/1193)) ([58d9866](https://github.com/dimitarvdimitrov/shared-workflows/commit/58d9866681bf38ddb7567d1283659c60149b4c99))
+* **push-to-gar-docker,build-push-to-dockerhub:** add support for buildkit secrets ([#990](https://github.com/dimitarvdimitrov/shared-workflows/issues/990)) ([bfed586](https://github.com/dimitarvdimitrov/shared-workflows/commit/bfed586d71f4799f2506878776b481d00ca84bda))
+
+
+### 🐛 Bug Fixes
+
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+* remediate latest zizmor findings, fix supplying zizmor config ([#1101](https://github.com/dimitarvdimitrov/shared-workflows/issues/1101)) ([712c599](https://github.com/dimitarvdimitrov/shared-workflows/commit/712c59975bc0de22124b866153826f04023f18fd))
+
+
+### 📝 Documentation
+
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple:** add docker cache notes to build-push-to-dockerhub and push-to-gar-docker ([#1003](https://github.com/dimitarvdimitrov/shared-workflows/issues/1003)) ([e5377f9](https://github.com/dimitarvdimitrov/shared-workflows/commit/e5377f9c2aee143ccf63001896fa59eef7bea1d5))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update docker/build-push-action action to v6.13.0 ([#715](https://github.com/dimitarvdimitrov/shared-workflows/issues/715)) ([4b971c2](https://github.com/dimitarvdimitrov/shared-workflows/commit/4b971c2583aa388393ad4da89a79b86379fd9197))
+* **deps:** update docker/build-push-action action to v6.14.0 ([#793](https://github.com/dimitarvdimitrov/shared-workflows/issues/793)) ([d750654](https://github.com/dimitarvdimitrov/shared-workflows/commit/d750654d770aefa0516e11735cdfdb89b7a380a1))
+* **deps:** update docker/build-push-action action to v6.15.0 ([#816](https://github.com/dimitarvdimitrov/shared-workflows/issues/816)) ([0ae253d](https://github.com/dimitarvdimitrov/shared-workflows/commit/0ae253d4a198408407a161de482680eddf2dfa42))
+* **deps:** update docker/build-push-action action to v6.16.0 ([#923](https://github.com/dimitarvdimitrov/shared-workflows/issues/923)) ([a301072](https://github.com/dimitarvdimitrov/shared-workflows/commit/a30107276148b4f29eaeaef05a3f9173d1aa0ad9))
+* **deps:** update docker/build-push-action action to v6.18.0 ([#1065](https://github.com/dimitarvdimitrov/shared-workflows/issues/1065)) ([5b5ee4c](https://github.com/dimitarvdimitrov/shared-workflows/commit/5b5ee4cf0a527daf5e32b7f968637b8a8ed7efcb))
+* **deps:** update docker/metadata-action action to v5.7.0 ([#818](https://github.com/dimitarvdimitrov/shared-workflows/issues/818)) ([9f9b2eb](https://github.com/dimitarvdimitrov/shared-workflows/commit/9f9b2eb3897a39fd65e5b92f17a60704925f94c4))
+* **deps:** update docker/metadata-action action to v5.8.0 ([#1182](https://github.com/dimitarvdimitrov/shared-workflows/issues/1182)) ([315e38a](https://github.com/dimitarvdimitrov/shared-workflows/commit/315e38a03f442c39bd82e902b88d8ba6ff8879b7))
+* **deps:** update docker/setup-buildx-action action to v3.10.0 ([#819](https://github.com/dimitarvdimitrov/shared-workflows/issues/819)) ([09fb633](https://github.com/dimitarvdimitrov/shared-workflows/commit/09fb633eb9f6c77153fa941e662be7cd418ca1fb))
+* **deps:** update docker/setup-buildx-action action to v3.11.1 ([#1068](https://github.com/dimitarvdimitrov/shared-workflows/issues/1068)) ([5233cbc](https://github.com/dimitarvdimitrov/shared-workflows/commit/5233cbc5d62242fb17b2259c2c4bd2a628af5528))
+* **deps:** update docker/setup-buildx-action action to v3.9.0 ([#755](https://github.com/dimitarvdimitrov/shared-workflows/issues/755)) ([8dd62e3](https://github.com/dimitarvdimitrov/shared-workflows/commit/8dd62e320f60df7426d30b67c9b26f17af352ed7))
+* **deps:** update docker/setup-qemu-action action to v3.4.0 ([#756](https://github.com/dimitarvdimitrov/shared-workflows/issues/756)) ([753c87a](https://github.com/dimitarvdimitrov/shared-workflows/commit/753c87a0ea97496f0088e51c025e1f4c69be6626))
+* **deps:** update docker/setup-qemu-action action to v3.5.0 ([#820](https://github.com/dimitarvdimitrov/shared-workflows/issues/820)) ([183a929](https://github.com/dimitarvdimitrov/shared-workflows/commit/183a929dfee60c6294552ac80371153c29860c16))
+* **deps:** update docker/setup-qemu-action action to v3.6.0 ([#825](https://github.com/dimitarvdimitrov/shared-workflows/issues/825)) ([bfbcd01](https://github.com/dimitarvdimitrov/shared-workflows/commit/bfbcd01788fe3d09fb1de307529afe2c111cbc64))
+* **main:** release build-push-to-dockerhub 0.1.1 ([#584](https://github.com/dimitarvdimitrov/shared-workflows/issues/584)) ([402975d](https://github.com/dimitarvdimitrov/shared-workflows/commit/402975d84dd3fac9ba690f994f412d0ee2f51cf4))
+* **main:** release build-push-to-dockerhub 0.2.0 ([#757](https://github.com/dimitarvdimitrov/shared-workflows/issues/757)) ([1acd69f](https://github.com/dimitarvdimitrov/shared-workflows/commit/1acd69f48c01d7aef5f209f94048dfeb789026db))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [0.2.0](https://github.com/grafana/shared-workflows/compare/build-push-to-dockerhub-v0.1.1...build-push-to-dockerhub/v0.2.0) (2025-06-04)
 
 
