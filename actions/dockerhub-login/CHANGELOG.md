@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.0.3](https://github.com/dimitarvdimitrov/shared-workflows/compare/dockerhub-login/v1.0.2...dockerhub-login/v1.0.3) (2025-08-26)
+
+
+### 🐛 Bug Fixes
+
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+
+
+### 📝 Documentation
+
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update docker/login-action action to v3.4.0 ([#848](https://github.com/dimitarvdimitrov/shared-workflows/issues/848)) ([117d851](https://github.com/dimitarvdimitrov/shared-workflows/commit/117d8511cbc5da0337972deeb400c4298b057af3))
+* **deps:** update docker/login-action action to v3.5.0 ([#1187](https://github.com/dimitarvdimitrov/shared-workflows/issues/1187)) ([d8060f2](https://github.com/dimitarvdimitrov/shared-workflows/commit/d8060f2893039ae143f0d9c26f766565fb334c6a))
+* **main:** release dockerhub-login 1.0.1 ([#575](https://github.com/dimitarvdimitrov/shared-workflows/issues/575)) ([13fb504](https://github.com/dimitarvdimitrov/shared-workflows/commit/13fb504e3bfe323c1188bf244970d94b2d336e86))
+* **main:** release dockerhub-login 1.0.2 ([#807](https://github.com/dimitarvdimitrov/shared-workflows/issues/807)) ([c6d954f](https://github.com/dimitarvdimitrov/shared-workflows/commit/c6d954f7cd9c0022018982e01268de6cb75b913c))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [1.0.2](https://github.com/grafana/shared-workflows/compare/dockerhub-login-v1.0.1...dockerhub-login/v1.0.2) (2025-06-04)
 
 
