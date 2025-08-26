@@ -1,5 +1,69 @@
 # Changelog
 
+## [1.0.3](https://github.com/dimitarvdimitrov/shared-workflows/compare/techdocs-rewrite-relative-links/v1.0.2...techdocs-rewrite-relative-links/v1.0.3) (2025-08-26)
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update go patch updates ([#1169](https://github.com/dimitarvdimitrov/shared-workflows/issues/1169)) ([89ae65c](https://github.com/dimitarvdimitrov/shared-workflows/commit/89ae65c957ef293342ebd9e42532a6a8067b9f21))
+* **deps:** update module github.com/stretchr/testify to v1.11.0 ([#1263](https://github.com/dimitarvdimitrov/shared-workflows/issues/1263)) ([92d0612](https://github.com/dimitarvdimitrov/shared-workflows/commit/92d06123e73d57688a53671d0239197efb06cc60))
+* **deps:** update module github.com/urfave/cli/v3 to v3.4.1 ([#1229](https://github.com/dimitarvdimitrov/shared-workflows/issues/1229)) ([d79478b](https://github.com/dimitarvdimitrov/shared-workflows/commit/d79478b279700e6ab5af810a14cc86b0a7bed598))
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+* fix linting issues ([#876](https://github.com/dimitarvdimitrov/shared-workflows/issues/876)) ([1e7c66c](https://github.com/dimitarvdimitrov/shared-workflows/commit/1e7c66cde9d0949c49fb319bc3cea5c2aa7cfb45))
+
+
+### 🏗️ Build System
+
+* **deps:** bump github.com/lmittmann/tint ([52b0e8a](https://github.com/dimitarvdimitrov/shared-workflows/commit/52b0e8aa0e2017875582bf17db424e2d53dfa69d))
+* **deps:** bump github.com/lmittmann/tint ([d99f255](https://github.com/dimitarvdimitrov/shared-workflows/commit/d99f255cbe8c0b21503716fbcf2f6b79824fa62f))
+* **deps:** bump github.com/lmittmann/tint ([c0b8808](https://github.com/dimitarvdimitrov/shared-workflows/commit/c0b8808645927e0cac30b99b8d158883c0bac9e1))
+* **deps:** bump github.com/lmittmann/tint to 1.0.7 in techdocs-rewrite-relative-links ([#745](https://github.com/dimitarvdimitrov/shared-workflows/issues/745)) ([c0b8808](https://github.com/dimitarvdimitrov/shared-workflows/commit/c0b8808645927e0cac30b99b8d158883c0bac9e1))
+* **deps:** bump github.com/lmittmann/tint to 1.1.0 in techdocs-rewrite-relative-links ([#994](https://github.com/dimitarvdimitrov/shared-workflows/issues/994)) ([d99f255](https://github.com/dimitarvdimitrov/shared-workflows/commit/d99f255cbe8c0b21503716fbcf2f6b79824fa62f))
+* **deps:** bump github.com/lmittmann/tint to 1.1.1 in techdocs-rewrite-relative-links ([#1006](https://github.com/dimitarvdimitrov/shared-workflows/issues/1006)) ([52b0e8a](https://github.com/dimitarvdimitrov/shared-workflows/commit/52b0e8aa0e2017875582bf17db424e2d53dfa69d))
+* **deps:** bump github.com/spf13/afero ([556a668](https://github.com/dimitarvdimitrov/shared-workflows/commit/556a6680c0417f5cdf8c29037d09c2984d2fc4ca))
+* **deps:** bump github.com/spf13/afero from 1.12.0 to 1.14.0 ([#851](https://github.com/dimitarvdimitrov/shared-workflows/issues/851)) ([556a668](https://github.com/dimitarvdimitrov/shared-workflows/commit/556a6680c0417f5cdf8c29037d09c2984d2fc4ca))
+* **deps:** bump github.com/urfave/cli/v2 ([f8b49cb](https://github.com/dimitarvdimitrov/shared-workflows/commit/f8b49cb362d4dbedf4537ee64f758e15b0edbc36))
+* **deps:** bump github.com/urfave/cli/v2 to 2.27.7 in /techdocs-rewrite-relative-links ([#1028](https://github.com/dimitarvdimitrov/shared-workflows/issues/1028)) ([f8b49cb](https://github.com/dimitarvdimitrov/shared-workflows/commit/f8b49cb362d4dbedf4537ee64f758e15b0edbc36))
+* **deps:** bump github.com/yuin/goldmark ([06dde69](https://github.com/dimitarvdimitrov/shared-workflows/commit/06dde6927c0c1a5c8136f46f982628d4414e7f00))
+* **deps:** bump github.com/yuin/goldmark ([0ccdfc1](https://github.com/dimitarvdimitrov/shared-workflows/commit/0ccdfc1fffd6dfbb9bd7ea10d0b96793cef3d36a))
+* **deps:** bump github.com/yuin/goldmark from 1.7.10 in techdocs-rewrite-relative-links ([#910](https://github.com/dimitarvdimitrov/shared-workflows/issues/910)) ([0ccdfc1](https://github.com/dimitarvdimitrov/shared-workflows/commit/0ccdfc1fffd6dfbb9bd7ea10d0b96793cef3d36a))
+* **deps:** bump golang.org/x/term ([2a99c0b](https://github.com/dimitarvdimitrov/shared-workflows/commit/2a99c0b48edbe79f98fc9e90a5719cbc5ec36989))
+* **deps:** bump golang.org/x/term ([352ac63](https://github.com/dimitarvdimitrov/shared-workflows/commit/352ac63337021910bff758a3aba210db5d3e31aa))
+* **deps:** bump golang.org/x/term ([fa04ad7](https://github.com/dimitarvdimitrov/shared-workflows/commit/fa04ad7b8f4a44f7b541aaaf40d38f197bea6a64))
+* **deps:** bump golang.org/x/term from 0.28.0 to 0.29.0 in techdocs-rewrite-relative-links ([#767](https://github.com/dimitarvdimitrov/shared-workflows/issues/767)) ([fa04ad7](https://github.com/dimitarvdimitrov/shared-workflows/commit/fa04ad7b8f4a44f7b541aaaf40d38f197bea6a64))
+* **deps:** bump golang.org/x/term from 0.30.0 to 0.31.0 in techdocs-rewrite-relative-links ([#889](https://github.com/dimitarvdimitrov/shared-workflows/issues/889)) ([352ac63](https://github.com/dimitarvdimitrov/shared-workflows/commit/352ac63337021910bff758a3aba210db5d3e31aa))
+* **deps:** bump golang.org/x/term to 0.32.0 in techdocs-rewrite-relative-links ([#976](https://github.com/dimitarvdimitrov/shared-workflows/issues/976)) ([2a99c0b](https://github.com/dimitarvdimitrov/shared-workflows/commit/2a99c0b48edbe79f98fc9e90a5719cbc5ec36989))
+* **deps:** bump the go group ([c7717e9](https://github.com/dimitarvdimitrov/shared-workflows/commit/c7717e97859bfea4ba90539d59575dd8452cccf8))
+* **deps:** bump the go group ([0812cd0](https://github.com/dimitarvdimitrov/shared-workflows/commit/0812cd018b3ecc7b4d912bc68106a0febe0b8eeb))
+* **deps:** bump the go group ([6837a3b](https://github.com/dimitarvdimitrov/shared-workflows/commit/6837a3bd4a49e1fa5e4da9b061fd5e94087bcdac))
+* **deps:** bump the go group in /actions/techdocs-rewrite-relative-links with 2 updates ([#1016](https://github.com/dimitarvdimitrov/shared-workflows/issues/1016)) ([c7717e9](https://github.com/dimitarvdimitrov/shared-workflows/commit/c7717e97859bfea4ba90539d59575dd8452cccf8))
+* **deps:** bump the go group in /actions/techdocs-rewrite-relative-links with 2 updates ([#842](https://github.com/dimitarvdimitrov/shared-workflows/issues/842)) ([6837a3b](https://github.com/dimitarvdimitrov/shared-workflows/commit/6837a3bd4a49e1fa5e4da9b061fd5e94087bcdac))
+* **deps:** bump the go group in /actions/techdocs-rewrite-relative-links with 2 updates ([#928](https://github.com/dimitarvdimitrov/shared-workflows/issues/928)) ([0812cd0](https://github.com/dimitarvdimitrov/shared-workflows/commit/0812cd018b3ecc7b4d912bc68106a0febe0b8eeb))
+* **deps:** bump yuin/goldmark from 1.7.11 to 1.7.12 in techdocs-rewrite-relative-links ([#987](https://github.com/dimitarvdimitrov/shared-workflows/issues/987)) ([06dde69](https://github.com/dimitarvdimitrov/shared-workflows/commit/06dde6927c0c1a5c8136f46f982628d4414e7f00))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** bump golang.org/x/term ([53e1f52](https://github.com/dimitarvdimitrov/shared-workflows/commit/53e1f52b9ba967811e613ff2775204311dad23d6))
+* **deps:** bump golang.org/x/term from 0.33.0 to 0.34.0 ([#1214](https://github.com/dimitarvdimitrov/shared-workflows/issues/1214)) ([53e1f52](https://github.com/dimitarvdimitrov/shared-workflows/commit/53e1f52b9ba967811e613ff2775204311dad23d6))
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update actions/setup-go action to v5.3.0 ([#707](https://github.com/dimitarvdimitrov/shared-workflows/issues/707)) ([42df8ce](https://github.com/dimitarvdimitrov/shared-workflows/commit/42df8cefcbb9c0a25cf060c7566c96eab5d5de69))
+* **deps:** update actions/setup-go action to v5.4.0 ([#856](https://github.com/dimitarvdimitrov/shared-workflows/issues/856)) ([2a39322](https://github.com/dimitarvdimitrov/shared-workflows/commit/2a39322a1f089f759684c4a4fa1a8219a77d6494))
+* **deps:** update actions/setup-go action to v5.5.0 ([#1055](https://github.com/dimitarvdimitrov/shared-workflows/issues/1055)) ([bedd909](https://github.com/dimitarvdimitrov/shared-workflows/commit/bedd909cfbd5a0d1df440552f0eb6891e7371509))
+* **deps:** update dependency go to v1.24.4 ([#1108](https://github.com/dimitarvdimitrov/shared-workflows/issues/1108)) ([c222bcb](https://github.com/dimitarvdimitrov/shared-workflows/commit/c222bcb2c642c4301d0de750ec3cae56abed3ac4))
+* **deps:** update dependency go to v1.24.5 ([#1119](https://github.com/dimitarvdimitrov/shared-workflows/issues/1119)) ([1727c04](https://github.com/dimitarvdimitrov/shared-workflows/commit/1727c049c6d0c0c2b8665880be9e2a0fe411c043))
+* **deps:** update dependency go to v1.25.0 ([#1199](https://github.com/dimitarvdimitrov/shared-workflows/issues/1199)) ([ad2456e](https://github.com/dimitarvdimitrov/shared-workflows/commit/ad2456e023074d5b3f461b84d37ef07aa0b95537))
+* **deps:** update module github.com/urfave/cli/v2 to v3 ([#1113](https://github.com/dimitarvdimitrov/shared-workflows/issues/1113)) ([77b35d6](https://github.com/dimitarvdimitrov/shared-workflows/commit/77b35d6684b57abbd23dd0521518a11c024eb237))
+* **deps:** update module github.com/urfave/cli/v2 to v3 ([#1116](https://github.com/dimitarvdimitrov/shared-workflows/issues/1116)) ([60f3402](https://github.com/dimitarvdimitrov/shared-workflows/commit/60f340234824bbe468556cd2291876a509f05a48))
+* **deps:** update module golang.org/x/term to v0.33.0 ([#1128](https://github.com/dimitarvdimitrov/shared-workflows/issues/1128)) ([af0b589](https://github.com/dimitarvdimitrov/shared-workflows/commit/af0b5894104c3f7d937a51d2086050beb1929c5a))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+* **main:** release techdocs-rewrite-relative-links 1.0.1 ([#642](https://github.com/dimitarvdimitrov/shared-workflows/issues/642)) ([f34ee96](https://github.com/dimitarvdimitrov/shared-workflows/commit/f34ee960017a9e9da53c308a99351b8ddcdd9c78))
+* **main:** release techdocs-rewrite-relative-links 1.0.2 ([#747](https://github.com/dimitarvdimitrov/shared-workflows/issues/747)) ([7ad68d8](https://github.com/dimitarvdimitrov/shared-workflows/commit/7ad68d88603352bd6235658ccb083ba8c9737117))
+* **techdocs-rewrite-relative-links:** roll forward again to cli/v3 ([#1126](https://github.com/dimitarvdimitrov/shared-workflows/issues/1126)) ([475e8e7](https://github.com/dimitarvdimitrov/shared-workflows/commit/475e8e778c0034970a15c46f64ec90d7f945b1cd))
+* **techdocs-rewrite-relative-links:** switch to go.yaml.in ([#1034](https://github.com/dimitarvdimitrov/shared-workflows/issues/1034)) ([8ec6e54](https://github.com/dimitarvdimitrov/shared-workflows/commit/8ec6e54906ba35ade843244964ce7de9226c70a5))
+
 ## [1.0.2](https://github.com/grafana/shared-workflows/compare/techdocs-rewrite-relative-links-v1.0.1...techdocs-rewrite-relative-links/v1.0.2) (2025-06-04)
 
 
