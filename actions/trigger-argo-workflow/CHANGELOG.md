@@ -1,5 +1,72 @@
 # Changelog
 
+## [1.3.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/trigger-argo-workflow/v1.2.0...trigger-argo-workflow/v1.3.0) (2025-08-26)
+
+
+### 🎉 Features
+
+* **trigger-argo-workflow:** allow overiding `sender` argument ([#1246](https://github.com/dimitarvdimitrov/shared-workflows/issues/1246)) ([ff6c6f9](https://github.com/dimitarvdimitrov/shared-workflows/commit/ff6c6f924c0b66afc6dccae7ad5b1498270ef1e9))
+
+
+### 🐛 Bug Fixes
+
+* **deps:** update go patch updates ([#1169](https://github.com/dimitarvdimitrov/shared-workflows/issues/1169)) ([89ae65c](https://github.com/dimitarvdimitrov/shared-workflows/commit/89ae65c957ef293342ebd9e42532a6a8067b9f21))
+* **deps:** update module github.com/stretchr/testify to v1.11.0 ([#1263](https://github.com/dimitarvdimitrov/shared-workflows/issues/1263)) ([92d0612](https://github.com/dimitarvdimitrov/shared-workflows/commit/92d06123e73d57688a53671d0239197efb06cc60))
+* **deps:** update module github.com/urfave/cli/v3 to v3.4.1 ([#1229](https://github.com/dimitarvdimitrov/shared-workflows/issues/1229)) ([d79478b](https://github.com/dimitarvdimitrov/shared-workflows/commit/d79478b279700e6ab5af810a14cc86b0a7bed598))
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+* fix linting issues ([#876](https://github.com/dimitarvdimitrov/shared-workflows/issues/876)) ([1e7c66c](https://github.com/dimitarvdimitrov/shared-workflows/commit/1e7c66cde9d0949c49fb319bc3cea5c2aa7cfb45))
+* **trigger-argo-workflows:** support repos using Go workspaces ([#875](https://github.com/dimitarvdimitrov/shared-workflows/issues/875)) ([3143df8](https://github.com/dimitarvdimitrov/shared-workflows/commit/3143df809e37021321fcf823431f6580b4e1b652))
+
+
+### 📝 Documentation
+
+* **trigger-argo-workflow:** specify required permissions for using w… ([#967](https://github.com/dimitarvdimitrov/shared-workflows/issues/967)) ([62d1340](https://github.com/dimitarvdimitrov/shared-workflows/commit/62d134060a0479b86b1a9814b023b8403e1b36cf))
+
+
+### 🏗️ Build System
+
+* **deps:** bump github.com/lmittmann/tint ([2aeb3e6](https://github.com/dimitarvdimitrov/shared-workflows/commit/2aeb3e654cbe6a769b48f7530defa3a99b0981ad))
+* **deps:** bump github.com/lmittmann/tint ([aac83e6](https://github.com/dimitarvdimitrov/shared-workflows/commit/aac83e680848a3ab18b4bef0becabf145c936663))
+* **deps:** bump github.com/lmittmann/tint ([0e7ecbf](https://github.com/dimitarvdimitrov/shared-workflows/commit/0e7ecbf2ae0a5b76e24e31beed04d63e610e6b1d))
+* **deps:** bump github.com/lmittmann/tint ([8b9c841](https://github.com/dimitarvdimitrov/shared-workflows/commit/8b9c841229499e16241a0f8026038eaff4fc0ae3))
+* **deps:** bump github.com/lmittmann/tint from 1.1.0 to 1.1.1 in trigger-argo-workflow ([#1007](https://github.com/dimitarvdimitrov/shared-workflows/issues/1007)) ([aac83e6](https://github.com/dimitarvdimitrov/shared-workflows/commit/aac83e680848a3ab18b4bef0becabf145c936663))
+* **deps:** bump github.com/lmittmann/tint to 1.0.7 in trigger-argo-workflow ([#744](https://github.com/dimitarvdimitrov/shared-workflows/issues/744)) ([8b9c841](https://github.com/dimitarvdimitrov/shared-workflows/commit/8b9c841229499e16241a0f8026038eaff4fc0ae3))
+* **deps:** bump github.com/lmittmann/tint to 1.1.0 in /trigger-argo-workflow ([#995](https://github.com/dimitarvdimitrov/shared-workflows/issues/995)) ([0e7ecbf](https://github.com/dimitarvdimitrov/shared-workflows/commit/0e7ecbf2ae0a5b76e24e31beed04d63e610e6b1d))
+* **deps:** bump github.com/lmittmann/tint to 1.1.2 in trigger-argo-workflow ([#1017](https://github.com/dimitarvdimitrov/shared-workflows/issues/1017)) ([2aeb3e6](https://github.com/dimitarvdimitrov/shared-workflows/commit/2aeb3e654cbe6a769b48f7530defa3a99b0981ad))
+* **deps:** bump github.com/urfave/cli/v2 ([efb9b27](https://github.com/dimitarvdimitrov/shared-workflows/commit/efb9b277ac8015d4b1d86bb41a5732889cb568ed))
+* **deps:** bump github.com/urfave/cli/v2 to 2.27.7 in /trigger-argo-workflow ([#1027](https://github.com/dimitarvdimitrov/shared-workflows/issues/1027)) ([efb9b27](https://github.com/dimitarvdimitrov/shared-workflows/commit/efb9b277ac8015d4b1d86bb41a5732889cb568ed))
+* **deps:** bump golang.org/x/term ([8f6ce59](https://github.com/dimitarvdimitrov/shared-workflows/commit/8f6ce59f8fcb251c3e04361b31bc6b28c0134bc8))
+* **deps:** bump golang.org/x/term ([ec620d9](https://github.com/dimitarvdimitrov/shared-workflows/commit/ec620d967ceebc9580cd630cba0151eabbd8f252))
+* **deps:** bump golang.org/x/term ([a54a6c2](https://github.com/dimitarvdimitrov/shared-workflows/commit/a54a6c2bde469713c4af68a1bd5e0fd6eec1f537))
+* **deps:** bump golang.org/x/term from 0.28.0 to 0.29.0 in /actions/trigger-argo-workflow ([#768](https://github.com/dimitarvdimitrov/shared-workflows/issues/768)) ([a54a6c2](https://github.com/dimitarvdimitrov/shared-workflows/commit/a54a6c2bde469713c4af68a1bd5e0fd6eec1f537))
+* **deps:** bump golang.org/x/term from 0.30.0 to 0.31.0 in trigger-argo-workflow ([#890](https://github.com/dimitarvdimitrov/shared-workflows/issues/890)) ([ec620d9](https://github.com/dimitarvdimitrov/shared-workflows/commit/ec620d967ceebc9580cd630cba0151eabbd8f252))
+* **deps:** bump golang.org/x/term to 0.32.0 in trigger-argo-workflow ([#977](https://github.com/dimitarvdimitrov/shared-workflows/issues/977)) ([8f6ce59](https://github.com/dimitarvdimitrov/shared-workflows/commit/8f6ce59f8fcb251c3e04361b31bc6b28c0134bc8))
+* **deps:** bump the go group ([991851b](https://github.com/dimitarvdimitrov/shared-workflows/commit/991851bcc4a4196ab5c8a8d501e46b5b02ec9e42))
+* **deps:** bump the go group in /actions/trigger-argo-workflow with 2 updates ([#841](https://github.com/dimitarvdimitrov/shared-workflows/issues/841)) ([991851b](https://github.com/dimitarvdimitrov/shared-workflows/commit/991851bcc4a4196ab5c8a8d501e46b5b02ec9e42))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** bump golang.org/x/term ([fbfc18b](https://github.com/dimitarvdimitrov/shared-workflows/commit/fbfc18b9aec1427f23243459f62a8a9bb8f15d5a))
+* **deps:** bump golang.org/x/term from 0.33.0 to 0.34.0 ([#1213](https://github.com/dimitarvdimitrov/shared-workflows/issues/1213)) ([fbfc18b](https://github.com/dimitarvdimitrov/shared-workflows/commit/fbfc18b9aec1427f23243459f62a8a9bb8f15d5a))
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update actions/setup-go action to v5.3.0 ([#707](https://github.com/dimitarvdimitrov/shared-workflows/issues/707)) ([42df8ce](https://github.com/dimitarvdimitrov/shared-workflows/commit/42df8cefcbb9c0a25cf060c7566c96eab5d5de69))
+* **deps:** update actions/setup-go action to v5.4.0 ([#856](https://github.com/dimitarvdimitrov/shared-workflows/issues/856)) ([2a39322](https://github.com/dimitarvdimitrov/shared-workflows/commit/2a39322a1f089f759684c4a4fa1a8219a77d6494))
+* **deps:** update actions/setup-go action to v5.5.0 ([#1055](https://github.com/dimitarvdimitrov/shared-workflows/issues/1055)) ([bedd909](https://github.com/dimitarvdimitrov/shared-workflows/commit/bedd909cfbd5a0d1df440552f0eb6891e7371509))
+* **deps:** update module github.com/cenkalti/backoff/v4 to v5 ([#1112](https://github.com/dimitarvdimitrov/shared-workflows/issues/1112)) ([2e87db1](https://github.com/dimitarvdimitrov/shared-workflows/commit/2e87db102d6c16a167fc1a6fa341b9a967bdb7f1))
+* **deps:** update module github.com/cenkalti/backoff/v4 to v5 ([#1115](https://github.com/dimitarvdimitrov/shared-workflows/issues/1115)) ([7e81677](https://github.com/dimitarvdimitrov/shared-workflows/commit/7e81677d19648194b622dc3448f4fb2b4b3ff6dc))
+* **deps:** update module github.com/urfave/cli/v2 to v3 ([#1113](https://github.com/dimitarvdimitrov/shared-workflows/issues/1113)) ([77b35d6](https://github.com/dimitarvdimitrov/shared-workflows/commit/77b35d6684b57abbd23dd0521518a11c024eb237))
+* **deps:** update module github.com/urfave/cli/v2 to v3 ([#1116](https://github.com/dimitarvdimitrov/shared-workflows/issues/1116)) ([60f3402](https://github.com/dimitarvdimitrov/shared-workflows/commit/60f340234824bbe468556cd2291876a509f05a48))
+* **deps:** update module golang.org/x/term to v0.33.0 ([#1128](https://github.com/dimitarvdimitrov/shared-workflows/issues/1128)) ([af0b589](https://github.com/dimitarvdimitrov/shared-workflows/commit/af0b5894104c3f7d937a51d2086050beb1929c5a))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+* **main:** release trigger-argo-workflow 1.1.0 ([#634](https://github.com/dimitarvdimitrov/shared-workflows/issues/634)) ([0f70566](https://github.com/dimitarvdimitrov/shared-workflows/commit/0f705663f602e305aa22034489f351dc7022d8ce))
+* **main:** release trigger-argo-workflow 1.1.1 ([#748](https://github.com/dimitarvdimitrov/shared-workflows/issues/748)) ([ecdca38](https://github.com/dimitarvdimitrov/shared-workflows/commit/ecdca383418cd7662e5e96f6297c72c98d52916f))
+* **main:** release trigger-argo-workflow 1.1.2 ([#1019](https://github.com/dimitarvdimitrov/shared-workflows/issues/1019)) ([44c08c7](https://github.com/dimitarvdimitrov/shared-workflows/commit/44c08c7c1acb9e13bb68ad6265eee886a5e60930))
+* **main:** release trigger-argo-workflow 1.2.0 ([#1216](https://github.com/dimitarvdimitrov/shared-workflows/issues/1216)) ([2b6ace8](https://github.com/dimitarvdimitrov/shared-workflows/commit/2b6ace8fb54a9a0e4c4a28760b10c4f9ab073537))
+* **trigger-argo-workflow:** use cli/v3 ([#1127](https://github.com/dimitarvdimitrov/shared-workflows/issues/1127)) ([cc1a0b6](https://github.com/dimitarvdimitrov/shared-workflows/commit/cc1a0b6ad7d886337e15f9294830c3d4484eacda))
+
 ## [1.2.0](https://github.com/grafana/shared-workflows/compare/trigger-argo-workflow/v1.1.2...trigger-argo-workflow/v1.2.0) (2025-08-18)
 
 
