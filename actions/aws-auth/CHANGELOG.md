@@ -1,5 +1,27 @@
 # Changelog
 
+## [1.0.3](https://github.com/dimitarvdimitrov/shared-workflows/compare/aws-auth/v1.0.2...aws-auth/v1.0.3) (2025-08-26)
+
+
+### 🐛 Bug Fixes
+
+* **aws-auth:** fix reference to the action's own path ([#1032](https://github.com/dimitarvdimitrov/shared-workflows/issues/1032)) ([8499a7f](https://github.com/dimitarvdimitrov/shared-workflows/commit/8499a7f3c5f5b4ddc4bc57b8cd8b56dba41114af))
+
+
+### 📝 Documentation
+
+* fix wrong aws-auth reference in readme ([#731](https://github.com/dimitarvdimitrov/shared-workflows/issues/731)) ([c0ae660](https://github.com/dimitarvdimitrov/shared-workflows/commit/c0ae660365599f4f1a8550c941e08d4a6de268e5))
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **main:** release aws-auth 1.0.1 ([#580](https://github.com/dimitarvdimitrov/shared-workflows/issues/580)) ([abb283a](https://github.com/dimitarvdimitrov/shared-workflows/commit/abb283a39f2ddc434391d0e5d9a994f74bf20e35))
+* **main:** release aws-auth 1.0.2 ([#733](https://github.com/dimitarvdimitrov/shared-workflows/issues/733)) ([954bcbd](https://github.com/dimitarvdimitrov/shared-workflows/commit/954bcbdf6e64fe612210885b47df771d9d20447b))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [1.0.2](https://github.com/grafana/shared-workflows/compare/aws-auth-v1.0.1...aws-auth/v1.0.2) (2025-06-04)
 
 
