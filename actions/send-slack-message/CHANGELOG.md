@@ -1,5 +1,30 @@
 # Changelog
 
+## [2.0.4](https://github.com/dimitarvdimitrov/shared-workflows/compare/send-slack-message/v2.0.3...send-slack-message/v2.0.4) (2025-08-26)
+
+
+### 🐛 Bug Fixes
+
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+
+
+### 📝 Documentation
+
+* **send-slack-notification:** remove outdated docs, url update ([#982](https://github.com/dimitarvdimitrov/shared-workflows/issues/982)) ([d408247](https://github.com/dimitarvdimitrov/shared-workflows/commit/d4082475390936b2952dcea4921ae423e2ce6395))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update slackapi/slack-github-action action to v2.1.0 ([#1078](https://github.com/dimitarvdimitrov/shared-workflows/issues/1078)) ([88f8afc](https://github.com/dimitarvdimitrov/shared-workflows/commit/88f8afc06316e7124c952557a87a42a3776a8b26))
+* **deps:** update slackapi/slack-github-action action to v2.1.1 ([#1122](https://github.com/dimitarvdimitrov/shared-workflows/issues/1122)) ([254923a](https://github.com/dimitarvdimitrov/shared-workflows/commit/254923a5562af3a1909a2093c6d897f288b53f1e))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+* **main:** release send-slack-message 2.0.1 ([#685](https://github.com/dimitarvdimitrov/shared-workflows/issues/685)) ([0941e34](https://github.com/dimitarvdimitrov/shared-workflows/commit/0941e3408fa4789fec9062c44a2a9e1832146ba6))
+* **main:** release send-slack-message 2.0.2 ([#806](https://github.com/dimitarvdimitrov/shared-workflows/issues/806)) ([49eed09](https://github.com/dimitarvdimitrov/shared-workflows/commit/49eed0955ec059569c3eca1b4221fe7741c2b260))
+* **main:** release send-slack-message 2.0.3 ([#984](https://github.com/dimitarvdimitrov/shared-workflows/issues/984)) ([7b1ea78](https://github.com/dimitarvdimitrov/shared-workflows/commit/7b1ea78d685c0e00d2135bcc831f80d6bfcf29ff))
+
 ## [2.0.3](https://github.com/grafana/shared-workflows/compare/send-slack-message-v2.0.2...send-slack-message/v2.0.3) (2025-06-04)
 
 
