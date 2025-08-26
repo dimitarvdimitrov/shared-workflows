@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.4.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/get-vault-secrets/v1.3.0...get-vault-secrets/v1.4.0) (2025-08-26)
+
+
+### 🎉 Features
+
+* add helpful error handling for OIDC token failures ([#1171](https://github.com/dimitarvdimitrov/shared-workflows/issues/1171)) ([6272233](https://github.com/dimitarvdimitrov/shared-workflows/commit/62722333225a1fae03ae27a63d638f9bc2176edb))
+* add support for ignoring missing secrets to get-vault-secrets action ([#1236](https://github.com/dimitarvdimitrov/shared-workflows/issues/1236)) ([49ec8e2](https://github.com/dimitarvdimitrov/shared-workflows/commit/49ec8e26626286f514faebe62b7eafcbe034fe30))
+* expose exportenv in get-vault-secrets ([4ea1476](https://github.com/dimitarvdimitrov/shared-workflows/commit/4ea1476b297f17f388a7d9003ae28216c05bdb59))
+* expose exportEnv in get-vault-secrets ([#903](https://github.com/dimitarvdimitrov/shared-workflows/issues/903)) ([4ea1476](https://github.com/dimitarvdimitrov/shared-workflows/commit/4ea1476b297f17f388a7d9003ae28216c05bdb59))
+
+
+### 🐛 Bug Fixes
+
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+* **get-vault-secrets:** add outputs for export_env false ([#931](https://github.com/dimitarvdimitrov/shared-workflows/issues/931)) ([7580496](https://github.com/dimitarvdimitrov/shared-workflows/commit/75804962c1ba608148988c1e2dc35fbb0ee21746))
+
+
+### 📝 Documentation
+
+* **get-vault-secrets:** move permissions to job-level in example wor… ([#968](https://github.com/dimitarvdimitrov/shared-workflows/issues/968)) ([b42327d](https://github.com/dimitarvdimitrov/shared-workflows/commit/b42327db568c2c02b18bc53768aeb603de8c4a81))
+* **get-vault-secrets:** move permissions to job-level in example workflow in readme ([b42327d](https://github.com/dimitarvdimitrov/shared-workflows/commit/b42327db568c2c02b18bc53768aeb603de8c4a81))
+* **get-vault-secrets:** update enghub link to point to new vault docs ([#992](https://github.com/dimitarvdimitrov/shared-workflows/issues/992)) ([5e3deaf](https://github.com/dimitarvdimitrov/shared-workflows/commit/5e3deaf6734ec48f298adadad5fb2d12a2139907))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🤖 Continuous Integration
+
+* enhance, fix, run pre-commit ([#1033](https://github.com/dimitarvdimitrov/shared-workflows/issues/1033)) ([9ffb9ce](https://github.com/dimitarvdimitrov/shared-workflows/commit/9ffb9cec67a7712b4247e4ac37eb69946d802aed))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update hashicorp/vault-action action to v3.3.0 ([#831](https://github.com/dimitarvdimitrov/shared-workflows/issues/831)) ([98384a8](https://github.com/dimitarvdimitrov/shared-workflows/commit/98384a8bf33e1bea6957186fa78b999da95dd657))
+* **deps:** update hashicorp/vault-action action to v3.4.0 ([#1072](https://github.com/dimitarvdimitrov/shared-workflows/issues/1072)) ([b1c5ce9](https://github.com/dimitarvdimitrov/shared-workflows/commit/b1c5ce97ab9234836b62604ae52a90736f9a2f43))
+* **main:** release get-vault-secrets 1.1.0 ([#576](https://github.com/dimitarvdimitrov/shared-workflows/issues/576)) ([28361cd](https://github.com/dimitarvdimitrov/shared-workflows/commit/28361cdb22223e5f1e34358c86c20908e7248760))
+* **main:** release get-vault-secrets 1.2.0 ([#809](https://github.com/dimitarvdimitrov/shared-workflows/issues/809)) ([5d7e361](https://github.com/dimitarvdimitrov/shared-workflows/commit/5d7e361bc7e0a183cde8afe9899fb7b596d2659b))
+* **main:** release get-vault-secrets 1.2.1 ([#973](https://github.com/dimitarvdimitrov/shared-workflows/issues/973)) ([9f37f65](https://github.com/dimitarvdimitrov/shared-workflows/commit/9f37f656e063f0ad0b0bfc38d49894b57d363936))
+* **main:** release get-vault-secrets 1.3.0 ([#1036](https://github.com/dimitarvdimitrov/shared-workflows/issues/1036)) ([a37de51](https://github.com/dimitarvdimitrov/shared-workflows/commit/a37de51f3d713a30a9e4b21bcdfbd38170020593))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [1.3.0](https://github.com/grafana/shared-workflows/compare/get-vault-secrets/v1.2.1...get-vault-secrets/v1.3.0) (2025-08-19)
 
 
