@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.0.3](https://github.com/dimitarvdimitrov/shared-workflows/compare/argo-lint/v1.0.2...argo-lint/v1.0.3) (2025-08-26)
+
+
+### 🐛 Bug Fixes
+
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+
+
+### 📝 Documentation
+
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **main:** release argo-lint 1.0.1 ([#614](https://github.com/dimitarvdimitrov/shared-workflows/issues/614)) ([d52d359](https://github.com/dimitarvdimitrov/shared-workflows/commit/d52d3594c85a9d6873989b3f171d7bf76e771f8b))
+* **main:** release argo-lint 1.0.2 ([#808](https://github.com/dimitarvdimitrov/shared-workflows/issues/808)) ([ef793cf](https://github.com/dimitarvdimitrov/shared-workflows/commit/ef793cf7a76ea160db19220d4ba8235692ba603a))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+
 ## [1.0.2](https://github.com/grafana/shared-workflows/compare/argo-lint-v1.0.1...argo-lint/v1.0.2) (2025-06-04)
 
 
