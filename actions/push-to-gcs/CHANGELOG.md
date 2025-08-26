@@ -1,5 +1,45 @@
 # Changelog
 
+## [0.3.0](https://github.com/dimitarvdimitrov/shared-workflows/compare/push-to-gcs/v0.2.1...push-to-gcs/v0.3.0) (2025-08-26)
+
+
+### 🎉 Features
+
+* add `custom-service-account` input to `*-to-gcs` actions ([#720](https://github.com/dimitarvdimitrov/shared-workflows/issues/720)) ([b4868e3](https://github.com/dimitarvdimitrov/shared-workflows/commit/b4868e355b1e41a3ea54a272aa9970a809ec7ef1))
+* **push-to-gcs:** add `gzip` input ([#1138](https://github.com/dimitarvdimitrov/shared-workflows/issues/1138)) ([589381a](https://github.com/dimitarvdimitrov/shared-workflows/commit/589381ac26c629055574bff68951d452231cdc22))
+
+
+### 🐛 Bug Fixes
+
+* ensure every action disables git credential persistence ([#821](https://github.com/dimitarvdimitrov/shared-workflows/issues/821)) ([31ebf3f](https://github.com/dimitarvdimitrov/shared-workflows/commit/31ebf3f8e5d0f8709e6ec4ef73b39dd2bd08f959))
+* **everything:** fix all things for zizmor ([af9b0c5](https://github.com/dimitarvdimitrov/shared-workflows/commit/af9b0c52635d39023136fb9312a354f91d9b2bfd))
+* remediate latest zizmor findings, fix supplying zizmor config ([#1101](https://github.com/dimitarvdimitrov/shared-workflows/issues/1101)) ([712c599](https://github.com/dimitarvdimitrov/shared-workflows/commit/712c59975bc0de22124b866153826f04023f18fd))
+
+
+### 📝 Documentation
+
+* **multiple-actions:** move permissions to job level in workflow examples ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* **multiple-actions:** move permissions to job level in workflows ([#969](https://github.com/dimitarvdimitrov/shared-workflows/issues/969)) ([49c90b1](https://github.com/dimitarvdimitrov/shared-workflows/commit/49c90b10fcbce463983bed45932cf468b8bd06ce))
+* update all readmes to replace hyphen with slash ([#1008](https://github.com/dimitarvdimitrov/shared-workflows/issues/1008)) ([472df76](https://github.com/dimitarvdimitrov/shared-workflows/commit/472df76fb1cbb92a17fb9e055bdf0d1399109ee3))
+
+
+### 🤖 Continuous Integration
+
+* don't persist shared workflows folder after action is done ([#905](https://github.com/dimitarvdimitrov/shared-workflows/issues/905)) ([9a34c93](https://github.com/dimitarvdimitrov/shared-workflows/commit/9a34c9302d2064c48e03cf7c4c7cd45998c4615e))
+* remove gcp credentials after composite action finishes ([#925](https://github.com/dimitarvdimitrov/shared-workflows/issues/925)) ([62f8dda](https://github.com/dimitarvdimitrov/shared-workflows/commit/62f8ddaa78b23147b22ba6a38df2b97963dab4b3))
+
+
+### 🔧 Miscellaneous Chores
+
+* **deps:** update actions/checkout action to v4.3.0 ([#1221](https://github.com/dimitarvdimitrov/shared-workflows/issues/1221)) ([17ab531](https://github.com/dimitarvdimitrov/shared-workflows/commit/17ab531bf2c16c79af38988e7caf7a3d8a37634b))
+* **deps:** update actions/checkout action to v5 ([#1227](https://github.com/dimitarvdimitrov/shared-workflows/issues/1227)) ([fd79c02](https://github.com/dimitarvdimitrov/shared-workflows/commit/fd79c02730e0629f728e2f5c3d614545269208a9))
+* **deps:** update google-github-actions/upload-cloud-storage action to v2.2.2 ([#741](https://github.com/dimitarvdimitrov/shared-workflows/issues/741)) ([5f7a536](https://github.com/dimitarvdimitrov/shared-workflows/commit/5f7a5361daa274f9a1994893a4c21a8967cf2a24))
+* **deps:** update google-github-actions/upload-cloud-storage action to v2.2.2 ([#749](https://github.com/dimitarvdimitrov/shared-workflows/issues/749)) ([948bff0](https://github.com/dimitarvdimitrov/shared-workflows/commit/948bff0b53f9d51876b8bca2cb1408384b4ce3b5))
+* **deps:** update google-github-actions/upload-cloud-storage action to v2.2.3 ([#1153](https://github.com/dimitarvdimitrov/shared-workflows/issues/1153)) ([346eeb2](https://github.com/dimitarvdimitrov/shared-workflows/commit/346eeb2f8f5db9a0b7c563c41f7211c46850627e))
+* **main:** release push-to-gar-docker 0.3.0 ([#794](https://github.com/dimitarvdimitrov/shared-workflows/issues/794)) ([a7bc536](https://github.com/dimitarvdimitrov/shared-workflows/commit/a7bc5367c4a91c389526d58839d8f6224dba4dcc))
+* **main:** release push-to-gcs 0.2.0 ([#577](https://github.com/dimitarvdimitrov/shared-workflows/issues/577)) ([81145d5](https://github.com/dimitarvdimitrov/shared-workflows/commit/81145d54bbbe2be6f04271d251e236fc3215e8e1))
+* **main:** release push-to-gcs 0.2.1 ([#750](https://github.com/dimitarvdimitrov/shared-workflows/issues/750)) ([efdcd1d](https://github.com/dimitarvdimitrov/shared-workflows/commit/efdcd1dc7a7676feef1d349b2a8d51bb902214c7))
+
 ## [0.2.1](https://github.com/grafana/shared-workflows/compare/push-to-gcs-v0.2.0...push-to-gcs/v0.2.1) (2025-06-04)
 
 
